@@ -1,0 +1,147 @@
+*{
+    margin: 0; /* ALTERA A MARGEM */
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #07070794;
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #cd863fbd; /* ALGUMA COR; */
+    padding: 20px ;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex; 
+    justify-content: center;
+
+}
+
+nav ul li {
+    margin: 0 20px;
+
+}
+
+nav ul li a {
+    color: #080808;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+
+}
+
+nav ul li a:hover { 
+    color: #d80ac7;
+}
+
+section:not( #home ) {
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#home {
+ /*background-color: #041e38; */
+ background-image: url( https://media.istockphoto.com/id/940236760/pt/foto/catwalk-runway-show-event.jpg?s=612x612&w=0&k=20&c=YRg-xkiph8PBZa2uZfYClKX26r4YBk5bjHLhOY-2hgU=);
+ background-size: cover;
+ background-repeat: no-repeat;
+ color: #0c0c0c;
+ height: 100vh;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-size: 1.5em;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover; 
+    margin-right: 20px;
+    border-radius: 8px;
+
+}
+
+.content .text {
+    max-width: 600px;
+    text-align: left;
+
+}
+
+.content .text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #070707;
+
+}
+
+.content .text p {
+    font-size: 1.1em;
+    color: #070707;
+}
+
+#services {
+    background-color: #DEB887;
+}
+
+#about {
+    background-color: #FFDEAD;
+}
+
+#contact {
+    background-color: #D2B48C;
+}
+.cta-button {
+    margin-top: 30px;
+    background-color: #f4a560;
+    color: #070707;
+    padding: 15px 30px; 
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 10px 10px 6px rgb(0, 0, 0);
+    transition: background-color 1s ease, transform 1s ease ;
+}
+
+.cta-button:hover {
+    box-shadow: 0px 4px 6px rgb(10, 10, 10);
+}
+
+footer{
+    background-color: #D2B48C;
+    height: 100px;
+    width:100% ;
+    position: absolute ;
+    margin-left: auto ;
+    margin-right: auto ;
+    
+}
+
